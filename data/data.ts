@@ -1,4 +1,3 @@
-/ Static Data
 export const destinationData = [
   {
     id: 1,
