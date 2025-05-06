@@ -30,7 +30,7 @@ const Nav = () => {
                     Book Now
                 </button>
                 {/* Burger Menu */}
-                <HiBars3BottomRight className='w-8 h-8 cursor-pointer text-white'/>
+                <HiBars3BottomRight className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
             </div>
         </div>
     </div>
