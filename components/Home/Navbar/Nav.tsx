@@ -4,6 +4,10 @@ import React from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2';
 import { TbAirBalloon } from 'react-icons/tb';
 
+type Props = {
+  openNav: () => void;
+}
+
 const Nav = () => {
   return (
     <div className='bg-blue-950 transition-all duuration-200 h-[12vh] z-[1000] fixed w-full'>
