@@ -6,7 +6,7 @@ import { TbAirBalloon } from 'react-icons/tb';
 
 const Nav = () => {
   return (
-    <div className='bg-blue-950 transition-all duuration-200 h-[12vh] z-[1000]'>
+    <div className='bg-blue-950 transition-all duuration-200 h-[12vh] z-[1000] fixed w-full'>
         <div className='flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto'>
             {/* Logo */}
             <div className='flex items-center space-x-2'>
