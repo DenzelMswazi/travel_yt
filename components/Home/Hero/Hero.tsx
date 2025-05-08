@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import SearchBox from '@/components/Helper/SearchBox'
 
 const Hero = () => {
   return (
@@ -15,6 +16,8 @@ const Hero = () => {
                     font-bold uppercase'>Let's Enjoy The Nature</h1>
                     <p className='md:text-base text-center text-lg text-white font-normal [word-spacing:5px]'>Get the best prices on over 200,000 properties and destinations worldwide</p>
                 </div>
+                {/* Search Box */}
+                <SearchBox />
             </div>
         </div>
     </div>
