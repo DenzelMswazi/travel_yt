@@ -4,7 +4,7 @@ type Props = {
     heading: string;
 }
 
-const SectionHeading = ({}:Props) => {
+const SectionHeading = ({heading}:Props) => {
   return (
     <div>SectionHeading</div>
   )
