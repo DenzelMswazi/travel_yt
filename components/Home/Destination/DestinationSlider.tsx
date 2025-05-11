@@ -6,4 +6,4 @@ const DestinationSlider = () => {
   )
 }
 
-export default DestinationSlider
+export default DestinationSlider;
