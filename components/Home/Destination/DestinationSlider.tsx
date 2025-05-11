@@ -35,6 +35,9 @@ const DestinationSlider = () => {
             <div className='absolute inset-0 bg-black opacity-25 rounded-lg'></div>
             {/* Image */}
             <Image src={data.image} alt={data.country} width={500} height={500} className="h-full w-full object-cover rounded-lg"/>
+            {/* Content */}
+            <h1>{data.country}</h1>
+            <p>{data.travelers}</p>
           </div>
         </div>
       })}
