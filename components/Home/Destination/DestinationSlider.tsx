@@ -23,7 +23,9 @@ const responsive = {
 
 const DestinationSlider = () => {
   return (
-    <div>DestinationSlider</div>
+    <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} >
+
+    </Carousel>
   )
 }
 
