@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 
 import Carousel from 'react-multi-carousel';
@@ -24,7 +26,7 @@ const responsive = {
 const DestinationSlider = () => {
   return (
     <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} >
-
+      <div></div>
     </Carousel>
   )
 }
