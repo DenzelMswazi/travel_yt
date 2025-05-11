@@ -8,7 +8,7 @@ export const destinationData = [
   {
     id: 2,
     image: "/images/d2.jpg",
-    country: "USA",
+    country: "London",
     travelers: "250,000",
   },
   {
@@ -26,7 +26,7 @@ export const destinationData = [
   {
     id: 5,
     image: "/images/d5.jpg",
-    country: "Australia",
+    country: "India",
     travelers: "120,000",
   },
   {
