@@ -1,9 +1,11 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { destinationData } from '@/data/data';
 
 const responsive = {
   desktop: {
@@ -26,7 +28,16 @@ const responsive = {
 const DestinationSlider = () => {
   return (
     <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={5000} keyBoardControl={true} >
-      <div></div>
+      {destinationData.map((data) => {
+        return <div key={data.id} className='m-3'>
+          <div className='relative h-[400px]'>
+            {/* Overlay */}
+            <div className='absolute inset-0 bg-black opacity-25 rounded-lg'></div>
+            {/* Image */}
+            <Image src={data.image} alt={data.country} width={500} height={500} className="h-full w-full object-cover rounded-lg"/>
+          </div>
+        </div>
+      })}
     </Carousel>
   )
 }
