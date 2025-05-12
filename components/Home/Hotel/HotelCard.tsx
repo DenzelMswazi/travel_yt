@@ -12,7 +12,7 @@ type Props = {
     };
 };
 
-const HotelCard = () => {
+const HotelCard = ({hotel}: Props) => {
   return (
     <div>HotelCard</div>
   )
