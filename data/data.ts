@@ -57,7 +57,7 @@ export const hotelsData = [
     location: "Diani, Mombasa",
     rating: 4.6,
     reviews: "2,345",
-    price: "Kes 45,000",
+    price: "Kes 45,000/=",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ export const hotelsData = [
     location: "Ciutat Vella, Barcelona",
     rating: 4.7,
     reviews: "1,912",
-    price: "USD 85,000",
+    price: "USD 85,000/=",
   },
   {
     id: 3,
@@ -75,7 +75,7 @@ export const hotelsData = [
     location: "Manhattan, New York",
     rating: 4.9,
     reviews: "3,420",
-    price: "USD 95,000",
+    price: "USD 95,000/=",
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ export const hotelsData = [
     location: "Vaticano Prati, Rome",
     rating: 4.5,
     reviews: "2,876",
-    price: "USD 68,000",
+    price: "USD 68,000/=",
   },
 ];
 
