@@ -15,7 +15,7 @@ const Hotel = () => {
                 <div key={data.id}>
                     <HotelCard hotel={data}/>
                 </div>
-            )
+            );
         })}
     </div>
     </div>
