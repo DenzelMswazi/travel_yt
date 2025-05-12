@@ -35,6 +35,8 @@ const HotelCard = ({hotel}: Props) => {
             <div className='px-2 py-2 bg-blue-800 rounded-md font-bold text-white tex-xs'>
                 {hotel.rating}
             </div>
+            <p className='text-sm text-gray-800'>Exceptional</p>
+            <p className='text-sm font-bold text-gray-800'>{hotel.reviews} Reviews</p>
         </div>
     </div>
     </div>
