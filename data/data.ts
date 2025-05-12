@@ -53,11 +53,11 @@ export const hotelsData = [
   {
     id: 1,
     image: "/images/h1.jpg",
-    name: "The Grand London Resort and Spa",
-    location: "Westminster, London",
+    name: "Diani Reef Beach Resort",
+    location: "Diani, Mombasa",
     rating: 4.6,
     reviews: "2,345",
-    price: "72",
+    price: "Kes 45,000",
   },
   {
     id: 2,
@@ -66,7 +66,7 @@ export const hotelsData = [
     location: "Ciutat Vella, Barcelona",
     rating: 4.7,
     reviews: "1,912",
-    price: "85",
+    price: "USD 85,000",
   },
   {
     id: 3,
@@ -75,16 +75,16 @@ export const hotelsData = [
     location: "Manhattan, New York",
     rating: 4.9,
     reviews: "3,420",
-    price: "95",
+    price: "USD 95,000",
   },
   {
     id: 4,
     image: "/images/h4.jpg",
-    name: "Hilton Roma Luxury Hotel Palace",
+    name: "Tremezo Grand Hotel Palace",
     location: "Vaticano Prati, Rome",
     rating: 4.5,
     reviews: "2,876",
-    price: "68",
+    price: "USD 68,000",
   },
 ];
 
