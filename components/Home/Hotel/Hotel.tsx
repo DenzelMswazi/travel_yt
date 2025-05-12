@@ -2,7 +2,10 @@ import React from 'react'
 
 const Hotel = () => {
   return (
-    <div>Hotel</div>
+    <div className='pt-20 pb-20'>
+        {/* Section Heading */}
+        
+    </div>
   )
 }
 
