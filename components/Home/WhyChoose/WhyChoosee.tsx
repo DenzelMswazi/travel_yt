@@ -11,6 +11,12 @@ const WhyChoosee = () => {
         <div>
             <WhyChooseCard image="/images/c1.svg" title="Best Price Guarantee"/>
             </div>  
+            <div>
+            <WhyChooseCard image="/images/c2.svg" title="Best Price Guarantee"/>
+            </div>
+            <div>
+            <WhyChooseCard image="/images/c3.svg" title="Best Price Guarantee"/>
+            </div>
         </div>
     </div>
   )
