@@ -5,7 +5,7 @@ type Props = {
   title: string;
 }
 
-const WhyChooseCard = () => {
+const WhyChooseCard = ({ image, title}: Props) => {
   return (
     <div>WhyChooseCard</div>
   )
