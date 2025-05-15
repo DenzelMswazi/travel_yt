@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 type Props = {
@@ -7,7 +8,9 @@ type Props = {
 
 const WhyChooseCard = ({ image, title}: Props) => {
   return (
-    <div>WhyChooseCard</div>
+    <div>
+      <Image src={image} width={70} height={70} alt='image' className='mx-auto'/>
+    </div>
   )
 }
 
