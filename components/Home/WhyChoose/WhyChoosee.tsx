@@ -15,7 +15,7 @@ const WhyChoosee = () => {
             <WhyChooseCard image="/images/c2.svg" title="Easy & Quick Booking"/>
             </div>
             <div>
-            <WhyChooseCard image="/images/c3(1).svg" title="Customer Care"/>
+            <WhyChooseCard image="/images/c3(1).svg" title="Customer Care 24/7"/>
             </div>
         </div>
     </div>
