@@ -9,6 +9,11 @@ const Review = () => {
           <p className='mt-6 text-gray-200'>We believe the best way to understand the impact of our product is to hear directly from the people
             who use it everyday. Our custmers inspire us with their stories, successes and honest feedback. Here's what they have to say about their experience with Trippie.
           </p>
+          <div className='mt-6 items-center space-x-6'>
+            <div>
+              <p>4.88</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
