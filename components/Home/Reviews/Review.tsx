@@ -11,7 +11,9 @@ const Review = () => {
           </p>
           <div className='mt-6 items-center space-x-6'>
             <div>
-              <p>4.88</p>
+              <p className='text-2xl font-bold text-white'>4.88</p>
+              <p className='text-white mb-2'>Overall Rating</p>
+              <div className='flex items-center'></div>
             </div>
           </div>
         </div>
