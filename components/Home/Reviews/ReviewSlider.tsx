@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {} from 'swiper/react';
+import { Swiper } from 'swiper/react';
 
 const ReviewSlider = () => {
   return (
