@@ -24,6 +24,8 @@ const Review = () => {
             </div>
           </div>
         </div>
+        {/* Placeholder for review images or testimonials */}
+        <div className='overflow-hidden'></div>
       </div>
     </div>
   )
