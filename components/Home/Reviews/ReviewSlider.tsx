@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
-import {} from 'swiper/modules';
+import { EffectCards } from 'swiper/modules';
 
 const ReviewSlider = () => {
   return (
