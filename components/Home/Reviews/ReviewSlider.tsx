@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
+import { reviewData } from '@/data/data';
 
 const ReviewSlider = () => {
   return (
@@ -15,7 +16,11 @@ const ReviewSlider = () => {
       grabCursor={true} 
       modules={[EffectCards]} 
       className="md:w-[450px] md:h-[350px] w-[90px] h-[300px]">
-
+      {reviewData.map((data)=> {
+        return (
+          <SwiperSlide key={data.id} className='bg-white rounded-3xl block'></SwiperSlide>
+        )
+      })}
       </Swiper>
       </div>
   )
