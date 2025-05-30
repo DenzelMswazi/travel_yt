@@ -138,21 +138,21 @@ export const toursData = [
 export const reviewData = [
   {
     id: 1,
-    name: "John gustavo",
+    name: "Sheldon Cooper",
     review:
       "The service exceeded my expectations. The team was professional, and I couldn't be happier with the results. Highly recommended to everyone!",
     image: "/images/u1.jpg",
   },
   {
     id: 2,
-    name: "Sheldon Cooper",
+    name: "Leonard Hofstadter",
     review:
       "I am thoroughly impressed with the attention to detail and quality. They truly understand customer needs and deliver outstanding results. Wonderful experience!",
     image: "/images/u2.jpg",
   },
   {
     id: 3,
-    name: "Leornard Hofstadter",
+    name: "Howard Wolowitz",
     review:
       "Exceptional quality and fantastic customer service! The project was delivered on time and exactly as I wanted. I will definitely use their services again.",
     image: "/images/u3.jpg",
@@ -162,34 +162,34 @@ export const reviewData = [
     name: "Rajesh Koothrappali",
     review:
       "Outstanding results! The team was efficient, and their professionalism was remarkable. Everything was done perfectly. I highly recommend their expertise to everyone.",
-    image: "/images/u1.jpg",
+    image: "/images/u4.jpg",
   },
   {
     id: 5,
-    name: "Howard Wolowitz",
+    name: "Penny Hofstadter",
     review:
       "Amazing service! They exceeded all expectations and delivered a product that I am extremely happy with. The communication throughout the project was excellent.",
-    image: "/images/u2.jpg",
+    image: "/images/u5.jpg",
   },
   {
     id: 6,
-    name: "Amy Farrah Fowler",
+    name: "Bernadette Rostenkowski-Wolowitz",
     review:
       "Fantastic experience! They listened carefully to my requirements and delivered exactly what I needed. Their attention to detail is truly commendable.",
-    image: "/images/u3.jpg",
+    image: "/images/u6.jpg"
   },
   {
     id: 7,
-    name: "Penny Hofstadter",
+    name: "Amy Farrah Fowler",
     review:
       "Absolutely incredible service! The team was supportive and responsive, making sure everything was perfect. I will definitely recommend them to my friends.",
-    image: "/images/u1.jpg",
+    image: "/images/u7.jpg",
   },
   {
     id: 8,
-    name: "Bernadette Rostenkowski-Wolowitz",
+    name: "Sheldon Cooper",
     review:
       "Five-star service from start to finish! The dedication and skill of the team made all the difference. Truly an exceptional experience I won’t forget.",
-    image: "/images/u2.jpg",
+    image: "/images/u1.jpg",
   },
 ];
