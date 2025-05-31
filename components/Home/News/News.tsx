@@ -8,7 +8,32 @@ const News = () => {
      <SectionHeading heading="Travel News for You" />   
      <div className='w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 items-center mt-20'>
         <div>
-            <NewsCard image="/images/n1.jpg" title="Top 10 places to visit suggested by Tripppie"/>
+            <NewsCard 
+            image="/images/n1.jpg" 
+            title="Top 10 places to visit in Kenya suggested by Tripppie"
+            date="15th Novemeber 2025"
+            />
+        </div>
+        <div>
+            <NewsCard 
+            image="/images/n2.jpg" 
+            title="Top 10 places to visit Internatinally suggested by Tripppie"
+            date="25th Novemeber 2025"
+            />
+        </div>
+        <div>
+            <NewsCard 
+            image="/images/n3.jpg" 
+            title="Top 10 places to visit Internationally suggested by Tripppie"
+            date="22nd December 2025"
+            />
+        </div>
+        <div>
+            <NewsCard 
+            image="/images/n4.jpg" 
+            title="Top 10 places to visit suggested by Tripppie"
+            date="5th Novemeber 2025"
+            />
         </div>
      </div>
     </div>

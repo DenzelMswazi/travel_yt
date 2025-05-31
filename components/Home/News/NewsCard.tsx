@@ -1,6 +1,13 @@
+import { title } from 'process'
 import React from 'react'
 
-const NewsCard = () => {
+type Props = {
+    image: string;
+    date: string;
+    title: string;
+}
+
+const NewsCard = ({ date, image, title }:Props ) => {
   return (
     <div>NewsCard</div>
   )
