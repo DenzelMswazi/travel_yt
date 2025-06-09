@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react'
+import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -42,6 +44,10 @@ const Footer = () => {
         </div>
         <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
             <p className='text-center md:text-left'>Copyright © 2025 Denzel Mswazi Web Designs. All right reserved</p>
+            <div className='flex items-center space-x-4 mt-4 md:mt-0'>
+              <span>Social : </span>
+              <Link href="#"><FaXTwitter/></Link>
+            </div>
         </div>
     </div>
   )
