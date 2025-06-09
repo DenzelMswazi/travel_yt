@@ -32,7 +32,11 @@ const Footer = () => {
               <h1 className='text-lg font-bold'>Contact Us</h1>
               <div className='mt-6'>
                 <h1 className='text-sm text-gray-600'>Our Mobile Numbeers</h1>
-                <h1 className='text-base font-bold text-blue-950'>+254 741 193 616</h1>
+                <h1 className='text-base font-bold text-blue-950 mt-1'>+254 741 193 616</h1>
+              </div>
+              <div className='mt-6'>
+                <h1 className='text-sm text-gray-600'>Email Address</h1>
+                <h1 className='text-base font-bold text-blue-950 mt-1'>denzelmwangi94@gmail.com</h1>
               </div>
             </div>
         </div>
