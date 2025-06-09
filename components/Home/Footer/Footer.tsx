@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import { FaDribbble, FaGit, FaGithub, FaInstagram } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedin, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -51,6 +51,7 @@ const Footer = () => {
               <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaInstagram/></Link>
               <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaGithub/></Link>
               <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaDribbble/></Link>
+              <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaLinkedin/></Link>
             </div>
         </div>
     </div>
