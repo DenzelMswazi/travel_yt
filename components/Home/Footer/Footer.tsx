@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
+import { FaGit, FaGithub, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
@@ -47,7 +48,8 @@ const Footer = () => {
             <div className='flex items-center space-x-4 mt-4 md:mt-0'>
               <span>Social : </span>
               <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaXTwitter/></Link>
-
+              <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaInstagram/></Link>
+              <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaGithub/></Link>
             </div>
         </div>
     </div>
