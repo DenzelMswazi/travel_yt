@@ -7,6 +7,7 @@ import Review from './Reviews/Review';
 import News from './News/News';
 import Newsletter from './Newsletter/Newsletter';
 import Footer from './Footer/Footer';
+import ScrollToTop from '../Helper/ScrollToTop';
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <News />
       <Newsletter />
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }
