@@ -46,7 +46,8 @@ const Footer = () => {
             <p className='text-center md:text-left'>Copyright © 2025 Denzel Mswazi Web Designs. All right reserved</p>
             <div className='flex items-center space-x-4 mt-4 md:mt-0'>
               <span>Social : </span>
-              <Link href="https://x.com/deejay_denzel"><FaXTwitter/></Link>
+              <Link href="https://x.com/deejay_denzel" className='text-gray-500 hover:text-gray-800'><FaXTwitter/></Link>
+
             </div>
         </div>
     </div>
