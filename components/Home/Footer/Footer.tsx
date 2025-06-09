@@ -28,6 +28,13 @@ const Footer = () => {
                 <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Flight Finder & Tracker</p>
                 <p className='text-gray-800 font-medium cursor-pointer text-sm hover:text-blue-950'>Travel Agent</p>
             </div>
+            <div>
+              <h1 className='text-lg font-bold'>Contact Us</h1>
+              <div className='mt-6'>
+                <h1 className='text-sm text-gray-600'>Our Mobile Numbeers</h1>
+                <h1 className='text-base font-bold text-blue-950'>+254 741 193 616</h1>
+              </div>
+            </div>
         </div>
     </div>
   )
