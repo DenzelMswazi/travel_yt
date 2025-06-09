@@ -6,12 +6,10 @@ import WhyChoosee from './WhyChoose/WhyChoosee';
 import Review from './Reviews/Review';
 import News from './News/News';
 import Newsletter from './Newsletter/Newsletter';
-import Footer from './Footer/Footer';
-import ScrollToTop from '../Helper/ScrollToTop';
 
 const Home = () => {
   return (
-    <div className='overflow-hidden h-[10000px]'>
+    <div className='overflow-hidden'>
       <Hero />
       <Destination />
       <Hotel />
@@ -19,8 +17,6 @@ const Home = () => {
       <Review />
       <News />
       <Newsletter />
-      <Footer />
-      <ScrollToTop />
     </div>
   )
 }
