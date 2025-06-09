@@ -40,6 +40,9 @@ const Footer = () => {
               </div>
             </div>
         </div>
+        <div className='mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm'>
+            <p>Copyright © 2025 Denzel Mswazi Web Designs. All right reserved</p>
+        </div>
     </div>
   )
 }
