@@ -8,7 +8,7 @@ type Props = {
 
 const WhyChooseCard = ({ image, title}: Props) => {
   return (
-    <div>
+    <div  data-aos="fade-right" data-aos-anchor-placement="top-center">
       <Image src={image} width={70} height={70} alt='image' className='mx-auto'/>
       <h1 className='mt-6 text-center text-gray-900 font-medium text-lg'>{title}</h1>
       <p className='mt-2 text-center text-xs font-medium text-gray-700'>Description text will be added here, For more information check contact details</p>
