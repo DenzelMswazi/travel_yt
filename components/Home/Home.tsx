@@ -17,6 +17,9 @@ const Home = () => {
 useEffect(() => {
    const initAOS = async() => {
     await import('aos');
+    AOS.init({
+      duration: 1000,
+    })
    }
 },[]);
 
