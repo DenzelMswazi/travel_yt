@@ -10,6 +10,7 @@ import News from './News/News';
 import Newsletter from './Newsletter/Newsletter';
 
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
 
