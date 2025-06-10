@@ -14,7 +14,9 @@ import 'aos/dist/aos.css';
 
 const Home = () => {
 
-useEffect(() => {},[]);
+useEffect(() => {
+   const initAOS = async() => {}
+},[]);
 
   return (
     <div className='overflow-hidden'>
