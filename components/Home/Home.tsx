@@ -23,7 +23,8 @@ useEffect(() => {
       once: true,
       anchorPlacement: 'top-bottom',
     })
-   }
+   };
+    initAOS();
 },[]);
 
   return (
