@@ -15,7 +15,9 @@ import 'aos/dist/aos.css';
 const Home = () => {
 
 useEffect(() => {
-   const initAOS = async() => {}
+   const initAOS = async() => {
+    await import('aos');
+   }
 },[]);
 
   return (
