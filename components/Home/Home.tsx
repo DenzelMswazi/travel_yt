@@ -11,7 +11,7 @@ import Newsletter from './Newsletter/Newsletter';
 
 const Home = () => {
 
-useEffect(() =>)
+useEffect(() => {},[]);
 
   return (
     <div className='overflow-hidden'>
