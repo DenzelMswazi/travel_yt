@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from './Hero/Hero';
 import Destination from './Destination/Destination';
 import Hotel from './Hotel/Hotel';
@@ -10,6 +10,9 @@ import News from './News/News';
 import Newsletter from './Newsletter/Newsletter';
 
 const Home = () => {
+
+useEffect(() =>)
+
   return (
     <div className='overflow-hidden'>
       <Hero />
