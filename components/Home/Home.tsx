@@ -9,6 +9,8 @@ import Review from './Reviews/Review';
 import News from './News/News';
 import Newsletter from './Newsletter/Newsletter';
 
+import AOS from 'aos';
+
 const Home = () => {
 
 useEffect(() => {},[]);
