@@ -39,7 +39,7 @@ const News = () => {
         <div 
         data-aos="fade-left" 
         data-aos-anchor-placement="top-center" 
-        data-aos-delay="400">
+        data-aos-delay="300">
             <NewsCard 
             image="/images/n4.jpg" 
             title="Top 10 places to visit suggested by Tripppie"
