@@ -17,7 +17,7 @@ const News = () => {
             />
         </div>
         <div 
-          data-aos="fade-up" 
+          data-aos="fade-left" 
           data-aos-anchor-placement="top-center" 
           data-aos-delay="100">
             <NewsCard 
@@ -27,7 +27,7 @@ const News = () => {
             />
         </div>
         <div 
-         data-aos="fade-up" 
+         data-aos="fade-left" 
          data-aos-anchor-placement="top-center" 
          data-aos-delay="300">
             <NewsCard 
@@ -36,7 +36,10 @@ const News = () => {
             date="22nd December 2025"
             />
         </div>
-        <div>
+        <div 
+        data-aos="fade-left" 
+        data-aos-anchor-placement="top-center" 
+        data-aos-delay="400">
             <NewsCard 
             image="/images/n4.jpg" 
             title="Top 10 places to visit suggested by Tripppie"
