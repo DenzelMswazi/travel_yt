@@ -16,14 +16,20 @@ const News = () => {
             date="15th Novemeber 2025"
             />
         </div>
-        <div>
+        <div 
+          data-aos="fade-up" 
+          data-aos-anchor-placement="top-center" 
+          data-aos-delay="100">
             <NewsCard 
             image="/images/n2.jpg" 
             title="Top 10 places to visit Internatinally suggested by Tripppie"
             date="25th Novemeber 2025"
             />
         </div>
-        <div>
+        <div 
+         data-aos="fade-up" 
+         data-aos-anchor-placement="top-center" 
+         data-aos-delay="300">
             <NewsCard 
             image="/images/n3.jpg" 
             title="Top 10 places to visit Internationally suggested by Tripppie"
